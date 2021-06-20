@@ -72,29 +72,15 @@ if __name__ == '__main__':
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
 
-    for lab in labels[0:1]:
+    for lab in labels:
         print('Processing the label:',lab)
         npy_name = data_dir + "/" + lab +'.npy'
-        data_container = np.array([])
+        data_container = []
         path = TRAIN_PATH + lab + '/'
         files = get_path_filenames(path)
         for name in tqdm(files):
             file_name = path + name
             the_mfcc = get_mfcc(file_name)
-            data_container = np.append(data_container, the_mfcc)
+            data_container.append(the_mfcc)
+        data_container = np.array(data_container)
         np.save(npy_name, data_container)
-
-    # lab = labels[0]
-    # print('Processing the label:',lab)
-    # npy_name = data_dir + "/" + lab +'.npy'
-    # data_container = np.array([])
-    # path = TRAIN_PATH + lab + '/'
-    # files = get_path_filenames(path)
-    # for name in tqdm(files):
-    #     file_name = path + name
-    #     the_mfcc = get_mfcc(file_name)
-    #     data_container = np.append(data_container, the_mfcc)
-    # np.save(npy_name, data_container)
-
-        
-    
