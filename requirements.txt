@@ -1,0 +1,10 @@
+numpy==1.21.0
+spflow==0.0.41
+librosa==0.8.1
+matplotlib==3.4.2
+dtw==1.4.0
+tqdm==4.61.1
+pathos==0.2.8
+hmmlearn==0.2.5
+scikit_learn==0.24.2
+spn==0.1.1
