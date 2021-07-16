@@ -29,3 +29,7 @@ This project is a SPN solution for the re-micro-cup digital one-game problem - t
 4. Model training: When performing model training, configure the path in each file in the `./Train/` directory, and then `execute `dtwsplit.py`, `datasplit.py` and `train_spn.ipynb` files in sequence. Among them, please use jupyter lab/notebook to open `train_spn.ipynb`, and execute them in order from top to bottom.
 
 5. Save model: There is a function to export SPN model in `train_spn.ipynb`, you only need to configure the path.
+
+## other instructions
+
+Since the complete training data is relatively large, only a small data set is placed in the warehouse. If necessary, please download Google Speech Command by yourself or download it from Baidu Cloud Disk. (Link: https://pan.baidu.com/s/1fXTGaAYHVPDtipNF287x-w Extraction code: qwi2 )

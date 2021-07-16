@@ -30,3 +30,6 @@
 
 5. 保存模型: 在`train_spn.ipynb`中存在导出SPN模型的功能，只需要配置好路径即可。
 
+## 其他说明
+
+由于完整的训练数据较大，只在该仓库中放置了小型的数据集合，如有需要请自行下载Google Speech Command 或 从百度云盘下载(链接: https://pan.baidu.com/s/1fXTGaAYHVPDtipNF287x-w 提取码: qwi2)。

@@ -25,15 +25,15 @@ import sys
 # ===================================================================================================
 
 # max cores used for compution
-cores = 32 # recommand 32 cores 
+cores = 4 # recommand 32 cores 
 
 # file-path
 
-TRAIN_PATH = '../../dataset/trainset/'
+TRAIN_PATH = '../Dataset/dataset_toy/'
 labels = [ 'down', 'go', 'left', 'no', 'off', 'on', 'right', 'stop', 'up', 'yes']
 
 # output_dir-path
-data_dir = '../../dataset/Data_processed_14'
+data_dir = '../Dataset/Data_pre_processed'
 
 # important parameters
 
